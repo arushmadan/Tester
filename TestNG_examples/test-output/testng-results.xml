@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26" started-at="2014-03-27T11:35:37Z" finished-at="2014-03-27T11:35:37Z">
+    <groups>
+      <group name="Salin">
+        <method signature="MultipleGroupsTest.testSalin()[pri:0, instance:examples.MultipleGroupsTest@66f7657b]" name="testSalin" class="examples.MultipleGroupsTest"/>
+      </group> <!-- Salin -->
+      <group name="Arush">
+        <method signature="MultipleGroupsTest.testArush()[pri:0, instance:examples.MultipleGroupsTest@66f7657b]" name="testArush" class="examples.MultipleGroupsTest"/>
+      </group> <!-- Arush -->
+    </groups>
+    <test name="Test" duration-ms="26" started-at="2014-03-27T11:35:37Z" finished-at="2014-03-27T11:35:37Z">
+      <class name="examples.MultipleGroupsTest">
+        <test-method status="PASS" signature="testArush()[pri:0, instance:examples.MultipleGroupsTest@66f7657b]" name="testArush" duration-ms="10" started-at="2014-03-27T17:05:37Z" finished-at="2014-03-27T17:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArush -->
+        <test-method status="PASS" signature="testSalin()[pri:0, instance:examples.MultipleGroupsTest@66f7657b]" name="testSalin" duration-ms="1" started-at="2014-03-27T17:05:37Z" finished-at="2014-03-27T17:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSalin -->
+      </class> <!-- examples.MultipleGroupsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

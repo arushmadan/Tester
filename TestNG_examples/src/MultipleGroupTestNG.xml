@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<parameter name="firstname" value="Salin" />
+	<parameter name="lastname" value="Dabra" />
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="Arush" />
+				<include name="Salin" />
+			</run>
+		</groups>
+		<classes>
+			<class name="examples.MultipleGroupsTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
